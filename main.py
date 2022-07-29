@@ -53,7 +53,7 @@ pyautogui.hotkey('Ctrl', 'v')
 pyautogui.press('Enter')
 
 # Enviar o gmail
-# clicando no botão +
+# clicando no botão para enviar o email
 time.sleep(5)
 pyautogui.click(x=85, y=166)
 destinatario = 'email para quem deseja enviar'
